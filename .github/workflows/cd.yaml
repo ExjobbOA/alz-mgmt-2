@@ -56,6 +56,7 @@ jobs:
       id-token: write
       contents: read
     with:
+      platform_ref: main
       parameters_file_name: config/tenants/test/platform.json
       skip_what_if: ${{ inputs.skip_what_if }}
       governance-int-root: ${{ inputs.governance-int-root }}
