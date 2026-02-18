@@ -1,4 +1,4 @@
-using './main-rbac.bicep'
+using '../../../../../platform/templates/core/governance/mgmt-groups/landingzones/main-rbac.bicep'
 
 param parLandingZonesManagementGroupName = 'landingzones'
 param parPlatformManagementGroupName = 'platform'

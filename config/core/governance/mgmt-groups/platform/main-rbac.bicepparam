@@ -1,4 +1,4 @@
-using './main-rbac.bicep'
+using '../../../../../platform/templates/core/governance/mgmt-groups/platform/main-rbac.bicep'
 
 param parPlatformManagementGroupName = 'platform'
 param parConnectivityManagementGroupName = 'connectivity'

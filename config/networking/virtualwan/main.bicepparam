@@ -1,4 +1,4 @@
-using './main.bicep'
+using '../../../platform/templates/networking/virtualwan/main.bicep'
 
 // General Parameters
 param parLocations = [

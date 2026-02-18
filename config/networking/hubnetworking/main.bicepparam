@@ -1,4 +1,4 @@
-using './main.bicep'
+using '../../../platform/templates/networking/hubnetworking/main.bicep'
 
 // General Parameters
 param parLocations = [

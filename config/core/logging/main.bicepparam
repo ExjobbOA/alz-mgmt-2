@@ -1,4 +1,4 @@
-using 'main.bicep'
+using '../../../platform/templates/core/logging/main.bicep'
 
 // General Parameters
 param parLocations = [
