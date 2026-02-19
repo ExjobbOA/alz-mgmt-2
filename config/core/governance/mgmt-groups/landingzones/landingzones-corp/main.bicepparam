@@ -36,271 +36,271 @@ param parPolicyAssignmentParameterOverrides = {
     parameters: {
       // Azure Container Registry private DNS zone
       azureAcrPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.azurecr.io'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.azurecr.io'
       }
       // Azure App Service private DNS zone
       azureAppPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.azurewebsites.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.azurewebsites.net'
       }
       // Azure App Services private DNS zone
       azureAppServicesPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.azurewebsites.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.azurewebsites.net'
       }
       // Azure Arc Guest Configuration private DNS zone
       azureArcGuestconfigurationPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.guestconfiguration.azure.com'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.guestconfiguration.azure.com'
       }
       // Azure Arc Hybrid Resource Provider private DNS zone
       azureArcHybridResourceProviderPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.his.arc.azure.com'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.his.arc.azure.com'
       }
       // Azure Arc Kubernetes Configuration private DNS zone
       azureArcKubernetesConfigurationPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.dp.kubernetesconfiguration.azure.com'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.dp.kubernetesconfiguration.azure.com'
       }
       // Azure Site Recovery private DNS zone
       azureAsrPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.siterecovery.windowsazure.com'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.siterecovery.windowsazure.com'
       }
       // Azure Automation DSC Hybrid private DNS zone
       azureAutomationDSCHybridPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.azure-automation.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.azure-automation.net'
       }
       // Azure Automation Webhook private DNS zone
       azureAutomationWebhookPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.azure-automation.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.azure-automation.net'
       }
       // Azure Batch private DNS zone
       azureBatchPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.batch.azure.com'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.batch.azure.com'
       }
       // Azure Bot Service private DNS zone
       azureBotServicePrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.directline.botframework.com'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.directline.botframework.com'
       }
       // Azure Cognitive Search private DNS zone
       azureCognitiveSearchPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.search.windows.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.search.windows.net'
       }
       // Azure Cognitive Services private DNS zone
       azureCognitiveServicesPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.cognitiveservices.azure.com'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.cognitiveservices.azure.com'
       }
       // Azure Cosmos DB Cassandra private DNS zone
       azureCosmosCassandraPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.cassandra.cosmos.azure.com'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.cassandra.cosmos.azure.com'
       }
       // Azure Cosmos DB Gremlin private DNS zone
       azureCosmosGremlinPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.gremlin.cosmos.azure.com'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.gremlin.cosmos.azure.com'
       }
       // Azure Cosmos DB MongoDB private DNS zone
       azureCosmosMongoPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.mongo.cosmos.azure.com'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.mongo.cosmos.azure.com'
       }
       // Azure Cosmos DB SQL API private DNS zone
       azureCosmosSQLPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.documents.azure.com'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.documents.azure.com'
       }
       // Azure Cosmos DB Table private DNS zone
       azureCosmosTablePrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.table.cosmos.azure.com'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.table.cosmos.azure.com'
       }
       // Azure Data Factory portal private DNS zone
       azureDataFactoryPortalPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.adf.azure.com'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.adf.azure.com'
       }
       // Azure Data Factory private DNS zone
       azureDataFactoryPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.datafactory.azure.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.datafactory.azure.net'
       }
       // Azure Databricks private DNS zone
       azureDatabricksPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.azuredatabricks.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.azuredatabricks.net'
       }
       // Azure Disk Access private DNS zone
       azureDiskAccessPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.blob.core.windows.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.blob.core.windows.net'
       }
       // Azure Event Grid domains private DNS zone
       azureEventGridDomainsPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.eventgrid.azure.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.eventgrid.azure.net'
       }
       // Azure Event Grid topics private DNS zone
       azureEventGridTopicsPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.eventgrid.azure.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.eventgrid.azure.net'
       }
       // Azure Event Hub namespace private DNS zone
       azureEventHubNamespacePrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.servicebus.windows.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.servicebus.windows.net'
       }
       // Azure File private DNS zone
       azureFilePrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.afs.azure.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.afs.azure.net'
       }
       // Azure HDInsight private DNS zone
       azureHDInsightPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.azurehdinsight.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.azurehdinsight.net'
       }
       // Azure IoT Central private DNS zone
       azureIotCentralPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.azureiotcentral.com'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.azureiotcentral.com'
       }
       // Azure IoT Device Update private DNS zone
       azureIotDeviceupdatePrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.api.adu.microsoft.com'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.api.adu.microsoft.com'
       }
       // Azure IoT Hubs private DNS zone
       azureIotHubsPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.azure-devices.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.azure-devices.net'
       }
       // Azure IoT private DNS zone
       azureIotPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.azure-devices-provisioning.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.azure-devices-provisioning.net'
       }
       // Azure Key Vault private DNS zone
       azureKeyVaultPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.vaultcore.azure.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.vaultcore.azure.net'
       }
       // Azure Machine Learning workspace private DNS zone
       azureMachineLearningWorkspacePrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.api.azureml.ms'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.api.azureml.ms'
       }
       // Azure Machine Learning workspace second private DNS zone
       azureMachineLearningWorkspaceSecondPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.notebooks.azure.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.notebooks.azure.net'
       }
       // Azure Managed Grafana workspace private DNS zone
       azureManagedGrafanaWorkspacePrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.grafana.azure.com'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.grafana.azure.com'
       }
       // Azure Media Services key private DNS zone
       azureMediaServicesKeyPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.media.azure.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.media.azure.net'
       }
       // Azure Media Services live private DNS zone
       azureMediaServicesLivePrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.media.azure.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.media.azure.net'
       }
       // Azure Media Services stream private DNS zone
       azureMediaServicesStreamPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.media.azure.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.media.azure.net'
       }
       // Azure Migrate private DNS zone
       azureMigratePrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.prod.migration.windowsazure.com'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.prod.migration.windowsazure.com'
       }
       // Azure Monitor private DNS zone 1
       azureMonitorPrivateDnsZoneId1: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.monitor.azure.com'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.monitor.azure.com'
       }
       // Azure Monitor private DNS zone 2
       azureMonitorPrivateDnsZoneId2: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.oms.opinsights.azure.com'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.oms.opinsights.azure.com'
       }
       // Azure Monitor private DNS zone 3
       azureMonitorPrivateDnsZoneId3: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.ods.opinsights.azure.com'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.ods.opinsights.azure.com'
       }
       // Azure Monitor private DNS zone 4
       azureMonitorPrivateDnsZoneId4: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.agentsvc.azure-automation.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.agentsvc.azure-automation.net'
       }
       // Azure Monitor private DNS zone 5
       azureMonitorPrivateDnsZoneId5: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.blob.core.windows.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.blob.core.windows.net'
       }
       // Azure Redis Cache private DNS zone
       azureRedisCachePrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.redis.cache.windows.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.redis.cache.windows.net'
       }
       // Azure Service Bus namespace private DNS zone
       azureServiceBusNamespacePrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.servicebus.windows.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.servicebus.windows.net'
       }
       // Azure SignalR private DNS zone
       azureSignalRPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.service.signalr.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.service.signalr.net'
       }
       // Azure Site Recovery backup private DNS zone
       azureSiteRecoveryBackupPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.{regionCode}.backup.windowsazure.com'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.{regionCode}.backup.windowsazure.com'
       }
       // Azure Site Recovery blob private DNS zone
       azureSiteRecoveryBlobPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.blob.core.windows.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.blob.core.windows.net'
       }
       // Azure Site Recovery queue private DNS zone
       azureSiteRecoveryQueuePrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.queue.core.windows.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.queue.core.windows.net'
       }
       // Azure Storage Blob private DNS zone
       azureStorageBlobPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.blob.core.windows.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.blob.core.windows.net'
       }
       // Azure Storage Blob secondary private DNS zone
       azureStorageBlobSecPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.blob.core.windows.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.blob.core.windows.net'
       }
       // Azure Storage DFS private DNS zone
       azureStorageDFSPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.dfs.core.windows.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.dfs.core.windows.net'
       }
       // Azure Storage DFS secondary private DNS zone
       azureStorageDFSSecPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.dfs.core.windows.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.dfs.core.windows.net'
       }
       // Azure Storage File private DNS zone
       azureStorageFilePrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.file.core.windows.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.file.core.windows.net'
       }
       // Azure Storage Queue private DNS zone
       azureStorageQueuePrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.queue.core.windows.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.queue.core.windows.net'
       }
       // Azure Storage Queue secondary private DNS zone
       azureStorageQueueSecPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.queue.core.windows.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.queue.core.windows.net'
       }
       // Azure Storage static web private DNS zone
       azureStorageStaticWebPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.web.core.windows.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.web.core.windows.net'
       }
       // Azure Storage static web secondary private DNS zone
       azureStorageStaticWebSecPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.web.core.windows.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.web.core.windows.net'
       }
       // Azure Storage Table private DNS zone
       azureStorageTablePrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.table.core.windows.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.table.core.windows.net'
       }
       // Azure Storage Table secondary private DNS zone
       azureStorageTableSecondaryPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.table.core.windows.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.table.core.windows.net'
       }
       // Azure Synapse Analytics Development private DNS zone
       azureSynapseDevPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.dev.azuresynapse.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.dev.azuresynapse.net'
       }
       // Azure Synapse Analytics SQL private DNS zone
       azureSynapseSQLPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.sql.azuresynapse.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.sql.azuresynapse.net'
       }
       // Azure Synapse Analytics SQL On-Demand private DNS zone
       azureSynapseSQLODPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.sql.azuresynapse.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.sql.azuresynapse.net'
       }
       // Azure Virtual Desktop hostpool private DNS zone
       azureVirtualDesktopHostpoolPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.wvd.microsoft.com'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.wvd.microsoft.com'
       }
       // Azure Virtual Desktop workspace private DNS zone
       azureVirtualDesktopWorkspacePrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.wvd.microsoft.com'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.wvd.microsoft.com'
       }
       // Azure Web private DNS zone
       azureWebPrivateDnsZoneId: {
-        value: '/subscriptions/6f051987-3995-4c82-abb3-90ba101a0ab4/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.azurewebsites.net'
+        value: '/subscriptions/0fbc92c2-828a-4fff-917c-487bf299d344/resourceGroups/rg-alz-dns-${parLocations[0]}/providers/Microsoft.Network/privateDnsZones/privatelink.azurewebsites.net'
       }
     }
   }
